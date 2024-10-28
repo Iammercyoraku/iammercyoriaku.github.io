@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4e7d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.recipe-card{
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 600px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe{
+    width: 100%;
+    height: auto;
+}
+
+.content{
+    padding: 20px;
+}
+
+h1{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-size: 14px;
+    color: #6665;
+    margin-bottom: 20px;
+}
+
+.preparation{
+    background-color: #f9f3f8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.preparation h2{
+    font-size: 16px;
+    color: #6a416e;
+    margin-bottom: 5px;
+}
+
+.preparation p{
+    font-size: 14px;
+    color: #333;
+}
+
+h2{
+    font-size: 20px;
+    color: #BA1B1D;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ingredients, .instructions{
+    margin-bottom: 20px;
+}
+
+.ingredients li, .instructions li{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.instructions{
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.ingredients{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.nutrition-info{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.nutrition{
+    width: 100%;
+    border-collapse: separate;
+    margin-bottom: 20px;
+}
+
+.nutrition th, .nutrition td{
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.nutrition th{
+    background-color: #f9f3f8;
+    color: #6a496e;
+}
